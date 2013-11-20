@@ -21,6 +21,11 @@
 		C42817781839B34D00DFD945 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C428175A1839B34D00DFD945 /* UIKit.framework */; };
 		C42817801839B34D00DFD945 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C428177E1839B34D00DFD945 /* InfoPlist.strings */; };
 		C42817821839B34D00DFD945 /* Pirate_AdventureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C42817811839B34D00DFD945 /* Pirate_AdventureTests.m */; };
+		C428178D1839B36400DFD945 /* PATile.m in Sources */ = {isa = PBXBuildFile; fileRef = C428178C1839B36400DFD945 /* PATile.m */; };
+		C42817901839B37B00DFD945 /* PACharecter.m in Sources */ = {isa = PBXBuildFile; fileRef = C428178F1839B37B00DFD945 /* PACharecter.m */; };
+		C42817931839B39400DFD945 /* PAWeapon.m in Sources */ = {isa = PBXBuildFile; fileRef = C42817921839B39400DFD945 /* PAWeapon.m */; };
+		C42817961839B3A000DFD945 /* PAArmor.m in Sources */ = {isa = PBXBuildFile; fileRef = C42817951839B3A000DFD945 /* PAArmor.m */; };
+		C428179A1839BBF800DFD945 /* PAFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = C42817991839BBF800DFD945 /* PAFactory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +58,16 @@
 		C428177D1839B34D00DFD945 /* Pirate AdventureTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pirate AdventureTests-Info.plist"; sourceTree = "<group>"; };
 		C428177F1839B34D00DFD945 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C42817811839B34D00DFD945 /* Pirate_AdventureTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pirate_AdventureTests.m; sourceTree = "<group>"; };
+		C428178B1839B36400DFD945 /* PATile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PATile.h; path = ../PATile.h; sourceTree = "<group>"; };
+		C428178C1839B36400DFD945 /* PATile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PATile.m; path = ../PATile.m; sourceTree = "<group>"; };
+		C428178E1839B37B00DFD945 /* PACharecter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PACharecter.h; path = ../PACharecter.h; sourceTree = "<group>"; };
+		C428178F1839B37B00DFD945 /* PACharecter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PACharecter.m; path = ../PACharecter.m; sourceTree = "<group>"; };
+		C42817911839B39400DFD945 /* PAWeapon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PAWeapon.h; path = ../PAWeapon.h; sourceTree = "<group>"; };
+		C42817921839B39400DFD945 /* PAWeapon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PAWeapon.m; path = ../PAWeapon.m; sourceTree = "<group>"; };
+		C42817941839B3A000DFD945 /* PAArmor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PAArmor.h; path = ../PAArmor.h; sourceTree = "<group>"; };
+		C42817951839B3A000DFD945 /* PAArmor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PAArmor.m; path = ../PAArmor.m; sourceTree = "<group>"; };
+		C42817981839BBF800DFD945 /* PAFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PAFactory.h; sourceTree = "<group>"; };
+		C42817991839BBF800DFD945 /* PAFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PAFactory.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +97,7 @@
 		C428174A1839B34D00DFD945 = {
 			isa = PBXGroup;
 			children = (
+				C42817971839B3C500DFD945 /* Classes */,
 				C428175C1839B34D00DFD945 /* Pirate Adventure */,
 				C428177B1839B34D00DFD945 /* Pirate AdventureTests */,
 				C42817551839B34D00DFD945 /* Frameworks */,
@@ -150,6 +166,32 @@
 				C428177E1839B34D00DFD945 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C42817971839B3C500DFD945 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C428179B1839BC0900DFD945 /* Factory */,
+				C428178B1839B36400DFD945 /* PATile.h */,
+				C428178C1839B36400DFD945 /* PATile.m */,
+				C428178E1839B37B00DFD945 /* PACharecter.h */,
+				C428178F1839B37B00DFD945 /* PACharecter.m */,
+				C42817911839B39400DFD945 /* PAWeapon.h */,
+				C42817921839B39400DFD945 /* PAWeapon.m */,
+				C42817941839B3A000DFD945 /* PAArmor.h */,
+				C42817951839B3A000DFD945 /* PAArmor.m */,
+			);
+			name = Classes;
+			path = "Pirate Adventure";
+			sourceTree = "<group>";
+		};
+		C428179B1839BC0900DFD945 /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				C42817981839BBF800DFD945 /* PAFactory.h */,
+				C42817991839BBF800DFD945 /* PAFactory.m */,
+			);
+			name = Factory;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,9 +292,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C42817931839B39400DFD945 /* PAWeapon.m in Sources */,
+				C42817961839B3A000DFD945 /* PAArmor.m in Sources */,
+				C42817901839B37B00DFD945 /* PACharecter.m in Sources */,
 				C42817631839B34D00DFD945 /* main.m in Sources */,
 				C428176D1839B34D00DFD945 /* PAViewController.m in Sources */,
+				C428178D1839B36400DFD945 /* PATile.m in Sources */,
 				C42817671839B34D00DFD945 /* PAAppDelegate.m in Sources */,
+				C428179A1839BBF800DFD945 /* PAFactory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
