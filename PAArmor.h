@@ -10,7 +10,7 @@
 
 @interface PAArmor : NSObject
 
-@property (strong, nonatomic) NSString *name;
+@property (strong, nonatomic) NSString *armorName;
 @property (nonatomic) int healthBonous;
 
 @end

@@ -11,12 +11,22 @@
 #import "PAArmor.h"
 
 @interface PACharecter : NSObject
+{
+    PAWeapon *_weaponHolding;
+    PAArmor *_armorWearing;
+}
 
-@property (strong, nonatomic) NSString *name;
+@property (strong, nonatomic) NSString *charecterName;
 @property (nonatomic) int health;
 @property (nonatomic) int damage;
 
 @property (strong, nonatomic) PAWeapon *weaponHolding;
 @property (strong, nonatomic) PAArmor *armorWearing;
+
+-(void) setWeaponHolding:(PAWeapon *)weaponHolding;
+-(PAWeapon *) weaponHolding;
+
+-(void) setArmorWearing:(PAArmor *)armorWearing;
+-(PAArmor *) armorWearing;
 
 @end

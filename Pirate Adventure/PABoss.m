@@ -1,15 +1,14 @@
 //
-//  PATile.m
+//  PABoss.m
 //  Pirate Adventure
 //
-//  Created by Travis Heaver on 11/17/13.
+//  Created by Travis Heaver on 11/23/13.
 //  Copyright (c) 2013 Travis Heaver. All rights reserved.
 //
 
-#import "PATile.h"
+#import "PABoss.h"
 
-@implementation PATile
-
+@implementation PABoss
 
 
 @end

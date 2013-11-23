@@ -17,5 +17,8 @@
 @property (strong, nonatomic) PAArmor *armor;
 @property (strong, nonatomic) PAWeapon *weapon;
 @property (nonatomic) int healthEffect;
+@property (nonatomic) int tileNumber;
+@property (nonatomic) BOOL completed;
+@property (nonatomic) BOOL isBoss;
 
 @end

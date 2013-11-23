@@ -1,16 +1,16 @@
 //
-//  PAWeapon.h
+//  PABoss.h
 //  Pirate Adventure
 //
-//  Created by Travis Heaver on 11/17/13.
+//  Created by Travis Heaver on 11/23/13.
 //  Copyright (c) 2013 Travis Heaver. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
 
-@interface PAWeapon : NSObject
+@interface PABoss : NSObject
 
-@property (strong,nonatomic) NSString *weaponName;
+@property (nonatomic) int health;
 @property (nonatomic) int damage;
 
 @end

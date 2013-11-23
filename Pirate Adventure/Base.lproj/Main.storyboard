@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="C4x-dt-VY7">
-                                <rect key="frame" x="20" y="35" width="280" height="191"/>
+                                <rect key="frame" x="17" y="35" width="280" height="191"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Stats" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Cat-YJ-O6c">
@@ -27,29 +27,42 @@
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Health" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LX5-8D-Bl1">
-                                        <rect key="frame" x="0.0" y="36" width="97" height="30"/>
+                                        <rect key="frame" x="0.0" y="43" width="97" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Damage" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5ll-be-EKr">
-                                        <rect key="frame" x="0.0" y="74" width="97" height="30"/>
+                                        <rect key="frame" x="0.0" y="81" width="97" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Weapon" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xiS-9q-hGx">
-                                        <rect key="frame" x="0.0" y="112" width="97" height="30"/>
+                                        <rect key="frame" x="0.0" y="118" width="97" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Armor" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3dk-cX-JDr">
-                                        <rect key="frame" x="0.0" y="150" width="97" height="30"/>
+                                        <rect key="frame" x="0.0" y="156" width="97" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VJw-9M-3R3">
+                                        <rect key="frame" x="0.0" y="0.0" width="151" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="              " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x8x-zn-FqP">
+                                        <rect key="frame" x="192" y="156" width="68" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                                 <color key="backgroundColor" red="1" green="0.61998776865537653" blue="0.62989012970523772" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
@@ -58,10 +71,14 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xyy-WS-fDl">
-                                        <rect key="frame" x="0.0" y="0.0" width="151" height="30"/>
+                                        <rect key="frame" x="20" y="10" width="236" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.23735451278836447" green="0.84965970506590216" blue="0.89083729619565222" alpha="1" colorSpace="calibratedRGB"/>
-                                        <state key="normal" title="Action"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                        <state key="normal" title="Nothing to see here....                                            "/>
+                                        <connections>
+                                            <action selector="actionButtonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="l2p-cJ-9m7"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="1" green="0.86269021526426548" blue="0.94385210762474414" alpha="1" colorSpace="calibratedRGB"/>
@@ -77,8 +94,8 @@
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hwq-KT-QoE">
-                                        <rect key="frame" x="33" y="72" width="219" height="21"/>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="161" translatesAutoresizingMaskIntoConstraints="NO" id="U8G-3R-OgF">
+                                        <rect key="frame" x="20" y="0.0" width="161" height="113"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="highlightedColor"/>
@@ -140,20 +157,34 @@
                                     <action selector="westButtonPress:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="tBk-lW-vMQ"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hwq-KT-QoE">
+                                <rect key="frame" x="27" y="477" width="219" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <connections>
+                        <outlet property="actionButtonLabel" destination="xyy-WS-fDl" id="PMP-bB-0jC"/>
+                        <outlet property="bossHealthLabel" destination="x8x-zn-FqP" id="98Y-Zg-sdY"/>
+                        <outlet property="charecterArmorLabel" destination="3dk-cX-JDr" id="Dd3-h0-wnl"/>
+                        <outlet property="charecterDamageLabel" destination="5ll-be-EKr" id="oRG-Bh-QR3"/>
+                        <outlet property="charecterHealthLabel" destination="LX5-8D-Bl1" id="Xma-Dz-iC9"/>
+                        <outlet property="charecterNameLabel" destination="VJw-9M-3R3" id="tmf-0J-gLP"/>
+                        <outlet property="charecterWeaponLabel" destination="xiS-9q-hGx" id="9qS-Wc-fvU"/>
                         <outlet property="currentLocationLabel" destination="hwq-KT-QoE" id="MDb-k0-mAh"/>
                         <outlet property="eastButton" destination="0dI-CQ-2R4" id="dH4-qJ-y8N"/>
                         <outlet property="northButton" destination="Fvy-DN-rNM" id="UDo-ZZ-AJV"/>
                         <outlet property="southButton" destination="Cp0-CM-oGO" id="FEA-fv-DhI"/>
+                        <outlet property="storyLabel" destination="U8G-3R-OgF" id="Mkc-kg-9vc"/>
                         <outlet property="westButton" destination="6c3-AN-juI" id="nJn-TV-BaN"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-35" y="43"/>
+            <point key="canvasLocation" x="-818" y="-102"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">

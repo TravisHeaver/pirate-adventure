@@ -26,6 +26,7 @@
 		C42817931839B39400DFD945 /* PAWeapon.m in Sources */ = {isa = PBXBuildFile; fileRef = C42817921839B39400DFD945 /* PAWeapon.m */; };
 		C42817961839B3A000DFD945 /* PAArmor.m in Sources */ = {isa = PBXBuildFile; fileRef = C42817951839B3A000DFD945 /* PAArmor.m */; };
 		C428179A1839BBF800DFD945 /* PAFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = C42817991839BBF800DFD945 /* PAFactory.m */; };
+		C44326FB18415E1800CC852B /* PABoss.m in Sources */ = {isa = PBXBuildFile; fileRef = C44326FA18415E1800CC852B /* PABoss.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +69,8 @@
 		C42817951839B3A000DFD945 /* PAArmor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PAArmor.m; path = ../PAArmor.m; sourceTree = "<group>"; };
 		C42817981839BBF800DFD945 /* PAFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PAFactory.h; sourceTree = "<group>"; };
 		C42817991839BBF800DFD945 /* PAFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PAFactory.m; sourceTree = "<group>"; };
+		C44326F918415E1800CC852B /* PABoss.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PABoss.h; sourceTree = "<group>"; };
+		C44326FA18415E1800CC852B /* PABoss.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PABoss.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +136,8 @@
 				C42817681839B34D00DFD945 /* Main.storyboard */,
 				C428176B1839B34D00DFD945 /* PAViewController.h */,
 				C428176C1839B34D00DFD945 /* PAViewController.m */,
+				C44326F918415E1800CC852B /* PABoss.h */,
+				C44326FA18415E1800CC852B /* PABoss.m */,
 				C428176E1839B34D00DFD945 /* Images.xcassets */,
 				C428175D1839B34D00DFD945 /* Supporting Files */,
 			);
@@ -300,6 +305,7 @@
 				C428178D1839B36400DFD945 /* PATile.m in Sources */,
 				C42817671839B34D00DFD945 /* PAAppDelegate.m in Sources */,
 				C428179A1839BBF800DFD945 /* PAFactory.m in Sources */,
+				C44326FB18415E1800CC852B /* PABoss.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -508,6 +514,7 @@
 				C42817871839B34D00DFD945 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C42817881839B34D00DFD945 /* Build configuration list for PBXNativeTarget "Pirate AdventureTests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +523,7 @@
 				C428178A1839B34D00DFD945 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
