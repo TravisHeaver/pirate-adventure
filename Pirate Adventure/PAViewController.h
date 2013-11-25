@@ -29,6 +29,7 @@
 @property (strong, nonatomic) PAFactory *factory;
 
 @property (strong, nonatomic) IBOutlet UILabel *storyLabel;
+@property (strong, nonatomic) IBOutlet UIImageView *backgroundImage;
 
 @property (strong, nonatomic) IBOutlet UIButton *northButton;
 @property (strong, nonatomic) IBOutlet UIButton *westButton;

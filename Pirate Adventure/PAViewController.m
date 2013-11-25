@@ -69,11 +69,13 @@
     // Dispose of any resources that can be recreated.
 }
 
+#pragma mark -Some information
 
 -(void) updateViewData
 {
     self.currentTile = [self.factory returntile:self.currentPoint.x y:self.currentPoint.y];
-    
+    self.backgroundImage.image = self.currentTile.backgroudImage;
+    NSLog(@"%i", self.currentTile.tileNumber);
     self.storyLabel.text = self.currentTile.story;
     [self setAllButtons];
     [self setCurrentLabel];
